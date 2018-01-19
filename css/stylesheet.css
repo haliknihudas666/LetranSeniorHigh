@@ -1,0 +1,51 @@
+#letran{
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+    z-index: -1;
+}
+
+#background{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+ @media only screen and (max-width : 992px) {
+   .parallax img {
+     max-height: 130%; /* or a little bit higher */
+   }
+ }
+
+ @media only screen and (min-width: 993px) {
+   .parallax img {
+     max-height: 170%; /* or higher percentages. It's up to your taste */
+   }
+ }
+
+.parallax img{
+     min-height: 400px;
+     position:static;
+}
+
+#chatbot{
+    width: 100%;
+    height: 400px;
+}
+
+#panorama {
+        width: 600px;
+        height: 400px;
+    }
